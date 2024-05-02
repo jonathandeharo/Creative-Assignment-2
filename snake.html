@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/snake.css">
+    <title>Snake</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="home">JavaScript Arcade Home</a></li>
+            <a href="coinflip.html" class="nav-item">Coin Flip</a></li>
+            <a href="flappybat.html" class="nav-item">Flappy Bat</a></li>
+            <a href="snake.html" class="nav-item">Snake Game</a></li>
+        </nav>
+    </header>
+    <h1 class="game-name">Snake Game</h1>
+    <div class="end-menu">
+        <h1>Game Over!</h1>
+        <p> Score: <span class="end-score"></span></p>
+        <p> Personal Best: <span class="best-score"></span></p>
+        <button class="restart-button">Restart</button>
+    </div>
+    <div class="difficulty-selection">
+        <label>Difficulty:</label>
+        <input type="radio" name="difficulty" id="easy" value="easy"> Easy
+        <input type="radio" name="difficulty" id="medium" value="medium" checked> Medium
+        <input type="radio" name="difficulty" id="hard" value="hard"> Hard
+        <input type="radio" name="difficulty" id="hard" value="impossible"> Impossible
+    </div>
+    <div class="game-container">
+        <canvas class="game-canvas" width="500" height="500"></canvas>
+        <div class="score-display">Score: 0</div>
+    </div>
+    <footer class="footer">
+        <p>Copyright Jonathan De Haro&copy; 2024 Game Arcade</p>
+    </footer>
+    <script src="js/snake.js"></script>
+</body>
+</html>

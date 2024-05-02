@@ -1,0 +1,9 @@
+.game-canvas {
+    background-color: rgb(255, 253, 208);
+}
+
+@media (max-width: 600px) {
+    .game-container, .game-canvas, .end-menu {
+        max-width: 90vw;
+    }
+}

@@ -12,6 +12,16 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
+Portions of this software are derived from the work of github users patlov (Patrick) and
+augustohonorio (Augusto Vaz). This project, flappy_bird_js, is used under the
+MIT License. The original work and license can be found at the following url:
+https://github.com/patlov/flappy_bird_js
+
+Additional Images and Media:
+This software includes images and media licensed under the Creative Commons. 
+Specific attributions are included within the project where these resources 
+are utilized.
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE

@@ -1,3 +1,9 @@
+/* set unique game background */
 .game-canvas {
     background-image: url('../images/flappyBatBackground.png');
+}
+
+/* to render newline */
+.footer {
+    white-space: pre-line;
 }

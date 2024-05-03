@@ -1,7 +1,9 @@
+/* set unique game canvas background for visibility */
 .game-canvas {
     background-color: rgb(255, 253, 208);
 }
 
+/* make game 90% of viewport width on smaller devices to fit */
 @media (max-width: 600px) {
     .game-container, .game-canvas, .end-menu {
         max-width: 90vw;

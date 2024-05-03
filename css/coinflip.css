@@ -1,3 +1,4 @@
+/* set fixed size for coin */
 .coin {
     width: 100px;
     height: 100px;
@@ -6,6 +7,7 @@
     position: relative;
 }
 
+/* formatting of game outcome text */
 .result-display{
     color: #fff;
     font-size: 2em;
@@ -14,6 +16,7 @@
     margin: 20px;
 }
 
+/* animate the flipping of the coin  */
 @keyframes flip {
     0%, 100% { transform: rotateY(0deg); }
     50% { transform: rotateY(1800deg); }
